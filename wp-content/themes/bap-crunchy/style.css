@@ -1,0 +1,453 @@
+/*
+Theme Name: Bap CRUNCHY
+Author: BAP5
+Description: Thème BAP Crunchy !
+Version: 1.0
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font */
+
+.montserrat_normal_24 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.montserrat_normal_18 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+
+.montserrat_bold_64 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.montserrat_bold_46 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.montserrat_bold_36 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.montserrat_bold_24 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.montserrat_bold_24_upper {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.montserrat_bold_14 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
+/* barre de navigation */
+header nav {
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+    padding: 20px;
+    height: 169px;
+}
+
+header nav img {
+    height: 96px;
+}
+
+header nav a:first-child {
+    padding-right: 3%;
+}
+header ul {    
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+}
+header li {
+    
+    padding: 20px 2%;
+   list-style-type: none;
+    font-size: 27px;
+    width: 100%;
+    text-align: center;
+}
+
+header li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header li a:hover {
+    color: #E55039;
+}
+
+
+
+
+header .background {
+    background-size: cover;
+}
+
+
+/* footer */
+footer hr {
+    border: none;
+    height: 5px;
+    background-color: #e55039;
+    margin-bottom: 45px;
+}
+footer .logo {
+    height: 129px;
+    margin-right: 12%;
+    padding-top: 30px;
+}
+
+footer .crunchy {
+    height: 62px;
+}
+
+footer .firstsection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+footer div {
+    display: flex;
+    margin-left: 4%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer li {
+    list-style-type: none;
+    font-size: 14px;
+    text-align: left;
+    width: 150px;
+}
+
+footer li:first-child {
+    font-size: 24px;
+    padding: 0 10px 17px 10px;
+    border-bottom: #E55039 solid 4px;
+}
+
+footer li:nth-child(2) {
+    margin-top: 30px;
+}
+
+footer .ullast {
+    margin-right: 13%;
+}
+footer .ullast li {
+    text-align: center;
+}
+
+footer .secondsection{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer span {
+    font-weight: 700;
+    color: #e55039;
+}
+
+/* l'histoire du studio */
+
+.article {
+    padding-left: 71px;
+    padding-right: 170px;
+    display: flex;
+    background-color: black;
+}
+
+.article:nth-child(2n+1) {
+    background-color: #E5553D;
+}
+
+
+.sous_titre_histoire {
+    color: #ffffff;
+    margin-top: 80px;
+    font-size: 47px;
+}
+
+.separateur_histoire {
+    margin: 25px 0;
+    width: 276px;
+    height: 8px;
+    border: none;
+    background: #FFFFFF;
+}
+
+.droite {
+    right: 0;
+    text-align: right;
+}
+
+.paragraphe {
+    font-size: 23px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+
+.paragraphe_centre {
+    text-align: center;
+    color: white;
+    background-color: #E5553D;
+    padding-bottom: 30px;
+}
+
+/* crunchy Jump */
+
+.article_crunchy {
+    display: flex;
+    padding: 63px 170px 55px 170px;
+}
+
+.image_crunchy {
+    margin-bottom: 63px;
+    padding-bottom: 63px;
+}
+
+
+.sous_titre_crunchy {
+    color: #ffffff;
+    margin-top: 56px;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.paragraphe_crunchy {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: rgb(255, 255, 255);
+}
+
+
+.article_crunchy {
+    background-color: #e55039;
+}
+
+.article_crunchy:nth-child(3n+1) {
+    background-color: white;
+}
+.article_crunchy:nth-child(3n+1) .sous_titre_crunchy {
+    color: rgb(0, 0, 0);
+}
+
+.article_crunchy:nth-child(3n+1) .paragraphe_crunchy {
+    color: rgb(0, 0, 0);
+}
+
+.article_crunchy:nth-child(3n+2) {
+    background-color: black;
+}
+.article_crunchy:nth-child(3n+2) .sous_titre_crunchy {
+    color: rgb(255, 255, 255);
+}
+
+.article_crunchy:nth-child(3n+2) .paragraphe_crunchy {
+    color: rgb(255, 255, 255);
+}
+
+/* Recrutement */
+
+.article_recrutement {
+    width: 100%;
+    display: flex;
+    padding-left: 192px;
+}
+
+.titre_recrutement {
+    margin-top: 77px;
+    color: white;
+}
+
+.sous_titre_recrutement {
+    color: white;
+    margin-top: 70px;
+    color: white;
+}
+
+.separateur_recrutement {
+    margin: 21px 0;
+    width: 156px;
+    height: 8px;
+    border: none;
+    background: #FFFFFF;
+}
+
+.paragraphe_recrutement {
+    line-height: 30px;
+    margin-bottom: 12px;
+    color: white;
+    width: 70%;
+}
+
+.article_recrutement:nth-child(2) {
+    padding-bottom: 140px;
+}
+
+
+.article_recrutement {
+    background-color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.article_recrutement:nth-child(2n+1) {
+    background-color: #e55039;
+}
+
+
+.liste_recrutement {
+    margin-left: 40px;
+}
+
+.colonne_recrutement {
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+.paragraphe_colonne_recrutement {
+    color: white;
+    margin-top: 10px;
+}
+
+.article_recrutement figure {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.icon_recrutement img {
+    margin-right: 20px;
+    margin-top: -15px;
+}
+
+/* accueil */
+
+.banniere_orange .titre_banniere_accueil, 
+.banniere_orange .sous_titre_banniere_accueil,
+.banniere_orange .separateur_banniere_accueil {
+    margin-left: 174px;
+    text-align: left;
+}
+
+.titre_banniere_accueil {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.separateur_banniere_accueil {
+    margin-bottom: 36px;
+    width: 156px;
+    height: 8px;
+    background: #FFFFFF;
+    border: none;
+}
+
+.sous_titre_banniere_accueil {
+    font-size: 18px;
+}
+
+.bouton_banniere_accueil {
+    text-align: right;
+    padding: 14px 71px;
+
+}
+
+.texte_bouton_banniere_accueil {
+    padding: 14px 71px;
+}
+
+
+
+.banniere_accueil_crunchy .titre_banniere_accueil, 
+.banniere_accueil_crunchy .sous_titre_banniere_accueil,
+.banniere_accueil_crunchy .separateur_banniere_accueil {
+    margin-right: 180px;
+    text-align: right;
+}
+
+.article_accueil {
+    display: flex;
+    padding: 63px 170px 55px 170px;
+}
+
+.image_accueil {
+    margin-bottom: 63px;
+    padding-bottom: 63px;
+}
+
+
+.sous_titre_accueil {
+    color: #ffffff;
+    margin-top: 56px;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.paragraphe_accueil {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: rgb(255, 255, 255);
+}
+
+
+.article_accueil {
+    background-color: #000000;
+}
+
+.article_accueil:nth-child(2n+1) {
+    background-color: white;
+}
+.article_accueil:nth-child(2n+1) .sous_titre_accueil {
+    color: rgb(0, 0, 0);
+}
+
+.article_accueil:nth-child(2n+1) .paragraphe_accueil {
+    color: rgb(0, 0, 0);
+}
